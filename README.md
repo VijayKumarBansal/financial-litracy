@@ -1,6 +1,11 @@
 # financial-litracy
 A simple bootstrap project.
 
+## Usage
+
+```python
+import foobar
+
 Install: npm install --global yo gulp-cli generator-webapp
 Run yo webapp to scaffold your webapp
 Run npm start to preview and watch for changes
@@ -11,4 +16,6 @@ Run npm run serve:test -- --port=8085 to run the tests in the browser in port 80
 Run npm run build to build your webapp for production
 Run npm run serve:dist to preview the production build
 Run npm run serve:dist -- --port=5000 to preview the production build in port 5000
+
+```
 
