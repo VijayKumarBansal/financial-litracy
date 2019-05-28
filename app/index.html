@@ -10,6 +10,7 @@
     <!-- Place favicon.ico in the root directory -->
     <!-- build:css styles/vendor.css -->
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
     <!-- endbuild -->
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
@@ -19,22 +20,56 @@
     <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills float-right">
-          <li class="nav-item">
-            <a href="#" class="nav-link active">Home</a>
-          </li>
-          <li>
-            <a href="#" class="nav-link">About</a>
-          </li>
-          <li>
-            <a href="#" class="nav-link">Contact</a>
-          </li>
-        </ul>
-        <h3 class="text-muted">learning</h3>
-      </div>
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header" class="fixed-top">
+      <div class="container">
+  
+        <div class="logo float-left">
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+          <a href="#intro" class="scrollto"><img src="./images/logo.png" alt="" class="img-fluid"></a>
+        </div>
+        <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+  
+        <nav class="main-nav float-right  d-lg-block collapse navbar-collapse" id="mydropdown">
+          <ul>
+            <li class="active"><a href="#intro">HOME</a></li>
+            <li><a href="#start">START HERE</a></li>
+            <li><a href="#products">PRODUCTS & SOLUTIONS</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#quiz">QUIZ</a></li>
+            <li><a href="#resources">RESOURCES</a></li>
+            <li> <input type="text" placeholder="SEARCH" class="search"></li>
 
+          </ul>
+        </nav><!-- .main-nav -->
+        
+      </div>
+    </header><!-- #header -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
       <div class="jumbotron">
         <h1 class="display-3">'Allo, 'Allo!</h1>
         <p class="lead">Always a pleasure scaffolding your apps.</p>
